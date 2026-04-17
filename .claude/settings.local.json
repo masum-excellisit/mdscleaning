@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo \"exit: $?\")",
+      "Bash(echo \"exit2: $?\")",
+      "Bash(php artisan *)",
+      "Bash(cp c:/xampp/htdocs/mds_cleaning/html-source/assets/*.jpg c:/xampp/htdocs/mds_cleaning/public/assets/images/)",
+      "Bash(cp c:/xampp/htdocs/mds_cleaning/html-source/assets/*.png c:/xampp/htdocs/mds_cleaning/public/assets/images/)",
+      "Bash(php -r \"echo PHP_VERSION;\")",
+      "Bash(awk '{print $2, $3}')",
+      "Bash(php -r ' *)",
+      "Bash(grep -v \"^\\\\s*$\\\\|Psy\\\\|>>>\")"
+    ]
+  }
+}
